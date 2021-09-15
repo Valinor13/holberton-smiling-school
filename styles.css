@@ -1,0 +1,50 @@
+body {
+    font-family: 'Source Sans Pro', serif;
+}
+
+.display-lg {
+    font-size: 120px;
+    font-weight: 900;
+}
+
+@media (max-width: 684px) {
+    .display-lg {
+        font-size: 61px; 
+    }
+}
+
+.fs-32 {
+    font-size: 32px;
+}
+
+.pt-grande {
+    padding-top: 170px;
+}
+
+button:hover, button:active, a:hover, a:active {
+    opacity: 0.9;
+}
+
+header .bg {
+    background-image: url("/images/pic_1.jpg");
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-brand {
+    font-family: 'Coiny', serif;
+}
+
+.navbar-toggler .toggler-example {
+    cursor: pointer;
+}
+
+.color-purp {
+    color: #C271FF;
+}
+
+.bg-purp {
+   background-color: #C271FF;
+}
