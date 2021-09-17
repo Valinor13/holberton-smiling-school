@@ -13,6 +13,10 @@ body {
     }
 }
 
+.container-md {
+    max-width: 1400px;
+}
+
 .fs-32 {
     font-size: 32px;
 }
@@ -57,8 +61,23 @@ header .bg {
    background-color: #C271FF;
 }
 
+.bg-db {
+    background-color: #071629;
+}
+
 @media (max-width: 576px) {
     .cara-cust {
         margin-top: 25px;
     }
+}
+
+.carousel-control {
+    margin: 5px;
+    padding: 0;
+    position: relative;
+    width: auto;
+}
+
+.cust-card {
+    max-width: 255px;
 }
