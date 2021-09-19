@@ -17,6 +17,19 @@ body {
     max-width: 1400px;
 }
 
+.px-6 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.mr-10 {
+    margin-right: 5rem;
+}
+
+.w-15 {
+    width: 15%;
+}
+
 .fs-32 {
     font-size: 32px;
 }
@@ -33,12 +46,26 @@ body {
     margin-bottom: 110px;
 }
 
+.nav-link:hover, .nav-link:active {
+    color: #C271FF !important;
+    border-bottom: 3px solid white;
+    padding-bottom: 3px;
+}
+
 button:hover, button:active, a:hover, a:active {
     opacity: 0.9;
 }
 
-header .bg {
+header .bg-homepage {
     background-image: url("/images/pic_1.jpg");
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header .bg-pricing {
+    background-image: url("/images/pic_2.jpg");
     height: 100%;
     background-position: center center;
     background-repeat: no-repeat;
