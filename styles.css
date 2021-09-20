@@ -46,6 +46,14 @@ body {
     margin-bottom: 110px;
 }
 
+.w-sb {
+    width: 31.5%;
+}
+
+.opacity-50 {
+    opacity: 50%;
+}
+
 .nav-link:hover, .nav-link:active {
     color: #C271FF !important;
     border-bottom: 3px solid white;
@@ -72,7 +80,19 @@ header .bg-pricing {
     background-size: cover;
 }
 
+header .bg-courses {
+    background-image: url("/images/pic_3.jpg");
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .navbar-brand {
+    font-family: 'Coiny', serif;
+}
+
+.font-coiny {
     font-family: 'Coiny', serif;
 }
 
@@ -86,6 +106,10 @@ header .bg-pricing {
 
 .bg-purp {
    background-color: #C271FF;
+}
+
+.bg-lp {
+    background-color: #D195FF;
 }
 
 .bg-db {
